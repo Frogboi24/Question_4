@@ -1,0 +1,17 @@
+Call:
+lm(formula = culmen_length_mm ~ body_mass_g, data = adelie_culbod)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-6.4208 -1.3690  0.1874  1.4825  5.6168 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 2.699e+01  1.483e+00  18.201  < 2e-16 ***
+body_mass_g 3.188e-03  3.977e-04   8.015 2.95e-13 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 2.234 on 149 degrees of freedom
+Multiple R-squared:  0.3013,	Adjusted R-squared:  0.2966 
+F-statistic: 64.24 on 1 and 149 DF,  p-value: 2.955e-13
