@@ -17,6 +17,8 @@
 ##
 ## ---------------------------
 
+#the versions of the packages used to do this analysis and produce this plot can be found in the "package_versions" folder
+
 # Set working directory 
 
 #setwd("path to the folder you are working in")
