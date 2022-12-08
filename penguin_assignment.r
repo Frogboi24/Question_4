@@ -147,7 +147,7 @@ plot(culbod_mod, which = 1)
 summary(culbod_mod)
 
 #and save it to the "out" folder
-sink(file = "out/summary_table")
+sink(file = "out/summary_table.txt")
 summary(culbod_mod)
 sink()
 
