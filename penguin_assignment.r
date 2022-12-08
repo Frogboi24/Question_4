@@ -17,6 +17,9 @@
 ##
 ## ---------------------------
 
+# This first section is just to give some background on the code used, 
+# you don't need to run any of the code until the "Load the libraries and the functions" section. 
+
 #the versions of the packages used to do this analysis and produce this plot can be found in the "package_versions" folder
 
 # Set working directory 
@@ -96,7 +99,7 @@ source("functions/plotting.r")
 # ----------------------------------------------------------------------------------
 # ----------------------------------------------------------------------------------
 
-# Now to conduct the linear regression and save the plot. 
+# run the code below to perform the analysis and produce the plot
 
 # ---------------------------
 # Load the libraries and the functions
