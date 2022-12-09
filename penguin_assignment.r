@@ -22,10 +22,6 @@
 
 #the versions of the packages used to do this analysis and produce this plot can be found in the "package_versions" folder
 
-# Set working directory 
-
-#setwd("path to the folder you are working in")
-
 # load the libraries 
 library(palmerpenguins)
 library(ggplot2)
@@ -100,6 +96,10 @@ source("functions/plotting.r")
 # ----------------------------------------------------------------------------------
 
 # run the code below to perform the analysis and produce the plot
+
+# Set working directory 
+
+# setwd("path to the folder you are working in")
 
 # ---------------------------
 # Load the libraries and the functions
